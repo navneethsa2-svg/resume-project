@@ -10,7 +10,7 @@ function validateForm() {
     }
 
     else if (!email.includes("@")) {
-        alert("Invalid Email");
+        alert("enter valid email");
         return false;
     }
 
